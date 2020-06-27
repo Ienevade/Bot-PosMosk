@@ -1,0 +1,43 @@
+ 
+var 
+    
+    a : integer;
+    date : TDateTime;
+    
+begin
+    a :=DayOfWeek(Now);
+    case a of
+1: Memo22text := '<QRCode 12451>';
+2: Memo22text := '<QRCode 12452>';
+3: Memo22text := '<QRCode 12453>';
+4: Memo22text := '<QRCode 12454>';
+5: Memo22text := '<QRCode 12455>';
+6: Memo22text := '<QRCode 12456>';
+7: Memo22text := '<QRCode 12457>'; 
+end;  
+write(Memo22text);
+end.
+
+для кипера
+
+var 
+    a : integer;
+    date : TDateTime;
+    
+begin
+    a :=DayOfWeek(Now);
+    case a of
+    1: Memo22.text := '<QRCode 12451>';
+    2: Memo22.text := '<QRCode 12452>';
+    3: Memo22.text := '<QRCode 12453>';
+    4: Memo22.text := '<QRCode 12454>';
+    5: Memo22.text := '<QRCode 12455>';
+    6: Memo22.text := '<QRCode 12456>';
+    7: Memo22.text := '<QRCode 12457>'; 
+    end  
+
+end
+
+
+
+[Остатки блюд]

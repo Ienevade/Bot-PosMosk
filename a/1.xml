@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RK7Query>
+  <RK7Command CMD="GetDocByLayout">
+    <Layout code="1000813"/>
+  </RK7Command>
+</RK7Query>

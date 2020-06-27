@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:include schemaLocation="common.xsd"/>
+
+    <xs:element name="RK7QueryResult">
+        <xs:annotation>
+            <xs:documentation xml:lang="ru">xml-ответ DeliveryGetOrderList</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="RK7QueryResult">
+                    <xs:sequence>
+                        <xs:element name="ExtraInfo" minOccurs="1" maxOccurs="1">
+                            <xs:complexType>
+                                <xs:attribute name="restaurantState" type="xs:boolean">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Статус ресторана (0 - неактивен, 1 - активен)</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="restaurantTime" type="xs:dateTime" use="optional">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Время начала деятельности (окончание периода неактивности)</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Order" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="ExtSource" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">Внешний id
+                                                заказа</xs:documentation>
+                                        </xs:annotation>
+                                        <xs:complexType>
+                                            <xs:attribute name="source" use="required">
+                                                <xs:annotation>
+                                                  <xs:documentation xml:lang="ru">id-программы, создавшей
+                                                        заказ</xs:documentation>
+                                                </xs:annotation>
+                                                <xs:simpleType>
+                                                  <xs:restriction base="xs:integer">
+                                                  <xs:minInclusive value="21"/>
+                                                  <xs:maxInclusive value="61"/>
+                                                  </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                            <xs:attribute name="extID" type="xs:string"
+                                                use="required">
+                                                <xs:annotation>
+                                                  <xs:documentation xml:lang="ru">ID визита в базе кассового сервера коллцентра</xs:documentation>
+                                                </xs:annotation>
+                                            </xs:attribute>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="DeliveryBlock" type="deliveryBlock" minOccurs="0"/>
+                                    <xs:element name="MainWaiter" type="resRefItem" minOccurs="1">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">Главный официант</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element name="Creator" type="resRefItem" minOccurs="1">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">Работник, создавший заказ (оператор)</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element name="Restaurant" type="resRefItem" minOccurs="0">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">Ресторан доставки</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attributeGroup ref="orderInfo">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Заказ</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attributeGroup>
+                                <xs:attribute name="version" type="xs:nonNegativeInteger">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Версия заказа</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="crc32" type="xs:int" use="required">
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Контрольная сумма по содержимому заказа</xs:documentation>
+                                  </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="guid" type="xs:normalizedString">
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="ru">GUID заказа</xs:documentation>
+                                  </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="orderName" type="xs:normalizedString">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Имя заказа</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="createTime" type="xs:dateTime">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Время создания заказа</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="lastChangeTime" type="xs:dateTime">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Время последнего редактирования заказа</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="totalPieces" type="xs:nonNegativeInteger"
+                                    use="required">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Количество порций в заказе (в тысячных
+                                            долях)</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="prepaySum" type="xs:integer" default="0">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Сумма незакрытых предоплат (в копейках)</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="promisedSum" type="xs:integer" use="optional" default="0">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Сумма обещанных платежей (в копейках)</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="deleted" type="xs:boolean">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Флаг - все блюда заказа удалены</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="started" type="xs:boolean">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Флаг - начата готовка блюд
+                                            заказа </xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="ready" type="xs:boolean">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Флаг - все блюда заказа уже
+                                            приготовлены </xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="paid" type="xs:boolean">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Флаг - заказ
+                                            оплачен</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="orderSum" type="xs:int">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Сумма заказа (в
+                                            копейках)</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="clientID" type="xs:long">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">ID клиента</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                                <xs:attribute name="addressID" type="xs:long">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">ID адреса доставки</xs:documentation>
+                                    </xs:annotation>
+                                </xs:attribute>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="lastversion" type="xs:integer">
+                        <xs:annotation>
+                            <xs:documentation xml:lang="ru">Версия таблицы заказов</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

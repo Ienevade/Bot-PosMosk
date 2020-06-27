@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RK7QueryResult ServerVersion="7.6.2.275" XmlVersion="244" NetName="SERVER_TEST" Status="Ok" Processed="1">
+	<CommandResult CMD="GetDocByLayout" Status="Ok" ErrorText="" DateTime="2020-04-03T12:38:48" WorkTime="157">
+		<LayoutResult LayoutCode="1000813" LayoutFilters="" DataSourceParams=""><Operations count = "53">
+<row memORDERIDENT="0" datetime="03.04.2020 12:31:10" ordername="" operator="Кассир" shiftnum="22" operationid="Автоматическое закрытие визита" operation="Автоматическое закрытие визита" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="0" datetime="03.04.2020 12:35:55" ordername="" operator="Кассир" shiftnum="22" operationid="Автоматическое закрытие визита" operation="Автоматическое закрытие визита" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="0" datetime="30.03.2020 14:49:31" ordername="" operator="Кассир" shiftnum="22" operationid="Вход в систему по паролю" operation="Вход в систему по паролю" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="0" datetime="03.04.2020 12:11:07" ordername="" operator="Кассир" shiftnum="22" operationid="Вход в систему по паролю" operation="Вход в систему по паролю" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:27:01" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Вход в систему по паролю" operation="Вход в систему по паролю" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="0" datetime="03.04.2020 12:30:32" ordername="" operator="Кассир" shiftnum="22" operationid="Вход в систему по паролю" operation="Вход в систему по паролю" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:35:16" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Вход в систему по паролю" operation="Вход в систему по паролю" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Выход из режима расчета" operation="Выход из режима расчета" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="0" datetime="" ordername="" operator="Кассир" shiftnum="22" operationid="Завершение работы" operation="Завершение работы" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:31:10" ordername="1182/1" operator="Кассир" shiftnum="22" operationid="Закрытие заказа" operation="Закрытие заказа" operatorid="Кассир" visit="484836510"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:35:55" ordername="1183/1" operator="Кассир" shiftnum="22" operationid="Закрытие заказа" operation="Закрытие заказа" operatorid="Кассир" visit="484836511"/>
+<row memORDERIDENT="256" datetime="" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Закрыть заказ без сохранения" operation="Закрыть заказ без сохранения" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:31:10" ordername="1182/1" operator="Кассир" shiftnum="22" operationid="Закрыть чек" operation="Закрыть чек" operatorid="Кассир" visit="484836510"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:35:55" ordername="1183/1" operator="Кассир" shiftnum="22" operationid="Закрыть чек" operation="Закрыть чек" operatorid="Кассир" visit="484836511"/>
+<row memORDERIDENT="0" datetime="30.03.2020 12:13:52" ordername="" operator="Система" shiftnum="22" operationid="Кассовый сервер не работал более N минут" operation="Кассовый сервер не работал более N минут" operatorid="Система" visit="0"/>
+<row memORDERIDENT="256" datetime="27.03.2020 15:35:45" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="30.03.2020 14:49:48" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="30.03.2020 14:50:29" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 11:24:18" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 11:24:44" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 11:24:51" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 11:25:46" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:11:25" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:30:39" ordername="1182/1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484836510"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:30:59" ordername="1182/1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484836510"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:35:22" ordername="1183/1" operator="Кассир" shiftnum="22" operationid="Открывать свой заказ" operation="Открывать свой заказ" operatorid="Кассир" visit="484836511"/>
+<row memORDERIDENT="0" datetime="27.03.2020 15:34:19" ordername="" operator="Кассир" shiftnum="22" operationid="Отмена регистрации (конец сессии)" operation="Отмена регистрации (конец сессии)" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="256" datetime="27.03.2020 15:38:33" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Отмена регистрации (конец сессии)" operation="Отмена регистрации (конец сессии)" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="0" datetime="03.04.2020 11:28:06" ordername="" operator="Кассир" shiftnum="22" operationid="Отмена регистрации (конец сессии)" operation="Отмена регистрации (конец сессии)" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:14:48" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Отмена регистрации (конец сессии)" operation="Отмена регистрации (конец сессии)" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:33:09" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Отмена регистрации (конец сессии)" operation="Отмена регистрации (конец сессии)" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:37:54" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Отмена регистрации (конец сессии)" operation="Отмена регистрации (конец сессии)" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="30.03.2020 14:50:11" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Отменить оплаты чека" operation="Отменить оплаты чека" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 11:23:43" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Отменить оплаты чека" operation="Отменить оплаты чека" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 11:25:31" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Отменить оплаты чека" operation="Отменить оплаты чека" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="0" datetime="27.03.2020 15:34:19" ordername="" operator="Кассир" shiftnum="22" operationid="Отменить регистрацию работника" operation="Отменить регистрацию работника" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="0" datetime="30.03.2020 12:13:52" ordername="" operator="Система" shiftnum="22" operationid="Отсутствовала связь с сервером уровнем выше более N минут" operation="Отсутствовала связь с сервером уровнем выше более N минут" operatorid="Система" visit="0"/>
+<row memORDERIDENT="0" datetime="30.03.2020 14:49:31" ordername="" operator="Кассир" shiftnum="22" operationid="Первая регистрация после загрузки" operation="Первая регистрация после загрузки" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="0" datetime="03.04.2020 12:30:32" ordername="" operator="Кассир" shiftnum="22" operationid="Первая регистрация после загрузки" operation="Первая регистрация после загрузки" operatorid="Кассир" visit="0"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:12:07" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Причины отказа" operation="Причины отказа" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:12:07" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Причины отказа" operation="Причины отказа" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:12:07" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Причины отказа" operation="Причины отказа" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="" ordername="1183/1" operator="Кассир" shiftnum="22" operationid="Расcчитать чек" operation="Расcчитать чек" operatorid="Кассир" visit="484836511"/>
+<row memORDERIDENT="256" datetime="" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Расcчитать чек" operation="Расcчитать чек" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="0" datetime="30.03.2020 12:13:52" ordername="" operator="Система" shiftnum="22" operationid="Связь с сервером отчетов восстановлена после простоя" operation="Связь с сервером отчетов восстановлена после простоя" operatorid="Система" visit="0"/>
+<row memORDERIDENT="256" datetime="" ordername="1183/1" operator="Кассир" shiftnum="22" operationid="Скидка" operation="Скидка" operatorid="Кассир" visit="484836511"/>
+<row memORDERIDENT="256" datetime="27.03.2020 15:35:45" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Создание заказа" operation="Создание заказа" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:30:39" ordername="1182/1" operator="Кассир" shiftnum="22" operationid="Создание заказа" operation="Создание заказа" operatorid="Кассир" visit="484836510"/>
+<row memORDERIDENT="256" datetime="03.04.2020 12:35:22" ordername="1183/1" operator="Кассир" shiftnum="22" operationid="Создание заказа" operation="Создание заказа" operatorid="Кассир" visit="484836511"/>
+<row memORDERIDENT="0" datetime="30.03.2020 12:13:52" ordername="" operator="Система" shiftnum="22" operationid="Станция включена после простоя" operation="Станция включена после простоя" operatorid="Система" visit="0"/>
+<row memORDERIDENT="0" datetime="30.03.2020 12:13:52" ordername="" operator="Система" shiftnum="22" operationid="Станция не работала более N минут" operation="Станция не работала более N минут" operatorid="Система" visit="0"/>
+<row memORDERIDENT="256" datetime="" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Удалить пустой заказ" operation="Удалить пустой заказ" operatorid="Кассир" visit="484377757"/>
+<row memORDERIDENT="256" datetime="" ordername="Доставка 1" operator="Кассир" shiftnum="22" operationid="Уменьшение суммы заказа" operation="Уменьшение суммы заказа" operatorid="Кассир" visit="484377757"/>
+</Operations>
+<Discounts count = "1">
+<Skidk author="Кассир" sum="-110.25" discount="25%" chargesource="Вручную" shiftdate="03.04.2020" memCHECKSTATE="6" visit="484836511"/>
+</Discounts>
+<Balance count = "2">
+<sum_all data="03.04.2020" sum="470.00" memORIGINALSUM="470.00"/>
+<sum_all data="03.04.2020" sum="330.75" memORIGINALSUM="330.75"/>
+</Balance>
+		</LayoutResult>
+	</CommandResult>
+</RK7QueryResult>

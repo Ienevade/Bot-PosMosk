@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="RK7CMD">
+        <xs:annotation>
+            <xs:documentation xml:lang="ru">[Касса,Кассовый сервер]Доставка: получить список заказов доставки</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ExtSource" type="xs:positiveInteger" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="ru">Фильтр: Заказ.ExtSource = указанному значению
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="NotExtSource" type="xs:positiveInteger" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="ru">Фильтр: Заказ.ExtSource != указанному значению
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="CMD" fixed="DeliveryGetOrderList" use="required"/>
+            <xs:attribute name="lastversion" type="xs:integer" use="optional">
+                <xs:annotation>
+                    <xs:documentation xml:lang="ru">Кэшировать результат запроса. Если версия таблицы заказов совпадает с lastversion, то возвращается "No changes", иначе обычный ответ</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

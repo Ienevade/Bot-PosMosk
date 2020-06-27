@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:include schemaLocation=".\common.xsd"/>
+
+    <xs:element name="RK7Query">
+        <xs:annotation>
+            <xs:documentation xml:lang="ru">[Касса, Кассовый сервер] Доставка: подтверждение
+                редактирования</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="RK7CMD">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="Order" type="orderElement" minOccurs="1">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Заказ</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="OrderType" type="refItem" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Тип заказа</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Restaurant" type="refItem" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Ресторан</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="DeliveryBlock" type="deliveryBlock" minOccurs="0"/>
+                            <xs:element name="ExtSource" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Внешний id
+                                        заказа</xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:attribute name="source" use="required">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">id-программы, создавшей
+                                                заказ</xs:documentation>
+                                        </xs:annotation>
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                                <xs:minInclusive value="21"/>
+                                                <xs:maxInclusive value="29"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="extID" type="xs:positiveInteger"
+                                        use="optional">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">Дополнительный id
+                                                заказа</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="ClientID" type="xs:long" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">ID клиента</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="AddressID" type="xs:long" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">ID адреса
+                                        доставки</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="HolderXML" type="xs:anyType">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Информация о клиенте (xml из
+                                        CardSystem)</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:all>
+                        <xs:attribute name="CMD" fixed="DeliveryConfirmEdit"/>
+                        <xs:attribute name="persistentComment"
+                            type="xs:normalizedString">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Сохраняемый комментарий</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="nonPersistentComment"
+                            type="xs:normalizedString">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Несохраняемый комментарий</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="readyTime" type="xs:dateTime" use="required">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Время, к которому заказ должен быть
+                                    приготовлен </xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="minCookTime" type="xs:dateTime">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Минимальное время приготовления
+                                    заказа</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="printImmediately" type="xs:boolean">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Сервис-печать выполнить сразу. Если
+                                    false, то сервис-печать начнется по достижению времени начала
+                                    готовки</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="closeOrder" type="xs:boolean">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Закрыть заказ</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

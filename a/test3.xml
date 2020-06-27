@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<RK7Query>
+<RK7CMD CMD="DeleteReceipt" ReceiptNum="101967" ManagerCode="1" DeleteReasonCode="6"/>
+</RK7Query>

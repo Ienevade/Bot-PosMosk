@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:include schemaLocation=".\common.xsd"/>
+
+    <xs:element name="RK7CMD">
+        <xs:annotation>
+            <xs:documentation xml:lang="ru">Доставка: печать чека/пречека при отправке экспедитора</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Employee" type="refItem" minOccurs="1" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="ru">Работник, выполняющий операцию</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Cashier" type="refItem" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="ru">Кассир, от имени которого будет напечатан чек. Если не задан, то берется Employee</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="Order" type="orderElement" minOccurs="1" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation xml:lang="ru">Заказ</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="CMD" fixed="DeliveryPayOrders"/>
+            <xs:attribute name="docType" default="receipt">
+                <xs:annotation>
+                    <xs:documentation xml:lang="ru">Тип документа для печати (чек, пречек)</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="receipt"/>
+                        <xs:enumeration value="bill"/>
+                    </xs:restriction>                        
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

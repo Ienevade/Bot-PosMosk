@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:include schemaLocation=".\common.xsd"/>
+
+    <xs:element name="RK7Query">
+        <xs:annotation>
+            <xs:documentation xml:lang="ru">[Касса] Доставка: изменение статуса ресторана</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="RK7CMD">
+                    <xs:complexType>
+                        <xs:attribute name="CMD" fixed="DeliveryChangeRestState"/>
+                        <xs:attribute name="restaurantState" type="xs:boolean">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Статус ресторана (0 - неактивен, 1 - активен)</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="restaurantTime" type="xs:dateTime">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Время начала деятельности (окончание периода неактивности)</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

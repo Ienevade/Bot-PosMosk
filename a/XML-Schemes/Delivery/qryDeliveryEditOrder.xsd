@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:include schemaLocation="common.xsd"/>
+
+    <xs:complexType name="InitialOrderItem">
+        <xs:sequence>
+            <xs:element name="Session" type="resSessionItem" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation xml:lang="ru">Список пакетов заказа</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="Replace" type="xs:boolean">
+            <xs:annotation>
+                <xs:documentation xml:lang="ru">0 - добавить к текущему заказу, 1 - заменить содержимое текущего заказа</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:element name="RK7Query">
+        <xs:annotation>
+            <xs:documentation xml:lang="ru">[Касса] Доставка: Редактировать заказ
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="RK7CMD">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Restaurant" type="refItem" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Ресторан, выполняющий
+                                        доставку</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Employee" type="refItem">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Работник, от имени которого
+                                        редактируется заказ</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="DeleteReason" type="refItem" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Причина аннулирования чека (если
+                                        заказ оплачен)</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="ClientID" type="xs:long">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">ID клиента</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="AddressID" type="xs:long">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">ID адреса
+                                        доставки</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="Interface" type="refItem">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Интерфейс с
+                                        CardSystem</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="OrderType" type="refItem" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Тип заказа</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="DeliveryBlock" type="deliveryBlock"/>
+                            <xs:element name="ExtSource" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Внешний id
+                                        заказа</xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:attribute name="source" use="required">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">id-программы, создавшей
+                                                заказ</xs:documentation>
+                                        </xs:annotation>
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                                <xs:minInclusive value="21"/>
+                                                <xs:maxInclusive value="29"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="extID" type="xs:positiveInteger"
+                                        use="optional">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">Дополнительный id
+                                                заказа</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="InitialOrder" type="InitialOrderItem">
+                                <xs:annotation>
+                                    <xs:documentation xml:lang="ru">Содержимое начального
+                                        заказа</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:choice>
+                                <xs:element name="Order" type="orderElement" minOccurs="1">
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">ID заказа. Если задан, то
+                                            заказ будет открыт на редактирование, иначе будет создан
+                                            новый заказ</xs:documentation>
+                                    </xs:annotation>
+                                </xs:element>
+                                <xs:sequence>
+                                    <xs:annotation>
+                                        <xs:documentation xml:lang="ru">Новый
+                                            заказ</xs:documentation>
+                                    </xs:annotation>
+                                    <xs:element name="OrderCategory" type="refItem" minOccurs="0">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">Категория
+                                                заказа</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                    <xs:element name="Table" type="refItem" minOccurs="0">
+                                        <xs:annotation>
+                                            <xs:documentation xml:lang="ru">Стол
+                                                заказа</xs:documentation>
+                                        </xs:annotation>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:choice>
+                        </xs:sequence>
+                        <xs:attribute name="CMD" fixed="DeliveryEditOrder" use="required"/>
+                        <xs:attribute name="readyTime" type="xs:dateTime">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Время, к которому заказ должен быть
+                                    приготовлен </xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="minCookTime" type="xs:dateTime">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Минимальное время приготовления
+                                    заказа</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="persistentComment"
+                            type="xs:normalizedString">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Сохраняемый комментарий</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="nonPersistentComment"
+                            type="xs:normalizedString">
+                            <xs:annotation>
+                                <xs:documentation xml:lang="ru">Несохраняемый комментарий</xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

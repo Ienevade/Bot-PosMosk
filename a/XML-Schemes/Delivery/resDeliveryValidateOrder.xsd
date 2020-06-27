@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:redefine schemaLocation="common.xsd">
+        <xs:complexType name="refItem">
+            <xs:complexContent>
+                <xs:extension base="refItem">
+                    <xs:attribute name="name" type="xs:normalizedString" use="required">
+                        <xs:annotation>
+                            <xs:documentation xml:lang="ru">Наименование модификатора на основном
+                                языке</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+
+        <xs:complexType name="dishAncestor">
+            <xs:complexContent>
+                <xs:extension base="dishAncestor">
+                    <xs:attribute name="amount" type="xs:nonNegativeInteger" use="optional">
+                        <xs:annotation>
+                            <xs:documentation xml:lang="ru">Сумма блюда с учетом скидок/наценок (в
+                                копейках)</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="paidAmount" type="xs:nonNegativeInteger" use="optional"
+                        default="0">
+                        <xs:annotation>
+                            <xs:documentation xml:lang="ru">Оплаченная часть суммы блюда (в
+                                копейках)</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:redefine>
+
+    <xs:element name="RK7QueryResult">
+        <xs:annotation>
+            <xs:documentation xml:lang="ru">xml-ответ: DeliveryValidateOrder</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="RK7QueryResult">
+                    <xs:sequence>
+                        <xs:element name="Order">
+                            <xs:complexType>
+                                <xs:complexContent>
+                                    <xs:extension base="resOrderItem">
+                                        <xs:sequence>
+                                            <xs:element name="Error_Item" minOccurs="0"
+                                                maxOccurs="unbounded">
+                                                <xs:annotation>
+                                                  <xs:documentation xml:lang="ru">Список ошибочных
+                                                  записей</xs:documentation>
+                                                </xs:annotation>
+                                                <xs:complexType>
+                                                  <xs:all>
+                                                  <xs:element name="FaultyTag">
+                                                  <xs:annotation>
+                                                  <xs:documentation xml:lang="ru">Сбойный
+                                                  тэг</xs:documentation>
+                                                  </xs:annotation>
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:any processContents="lax" minOccurs="1"
+                                                  maxOccurs="1">
+                                                  <xs:annotation>
+                                                  <xs:documentation xml:lang="ru">xml тэг,
+                                                  породивший ошибку</xs:documentation>
+                                                  </xs:annotation>
+                                                  </xs:any>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:all>
+                                                  <xs:attribute name="RK7ErrorN"
+                                                  type="xs:positiveInteger" use="required">
+                                                  <xs:annotation>
+                                                  <xs:documentation xml:lang="ru">Код ошибки
+                                                  RK7</xs:documentation>
+                                                  </xs:annotation>
+                                                  </xs:attribute>
+                                                  <xs:attribute name="ErrorText"
+                                                  type="xs:normalizedString" use="required">
+                                                  <xs:annotation>
+                                                  <xs:documentation xml:lang="ru">Текст
+                                                  ошибки</xs:documentation>
+                                                  </xs:annotation>
+                                                  </xs:attribute>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="cancelled" default="false"
+                                            type="xs:boolean">
+                                            <xs:annotation>
+                                                <xs:documentation xml:lang="ru">Флаг -
+                                                  редактирование было отменено</xs:documentation>
+                                            </xs:annotation>
+                                        </xs:attribute>
+                                    </xs:extension>
+                                </xs:complexContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

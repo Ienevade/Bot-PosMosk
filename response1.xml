@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RK7QueryResult ServerVersion="7.6.2.275" XmlVersion="244" NetName="SERVER_TEST" Status="Ok" Processed="1">
+	<CommandResult CMD="GetDocByLayout" Status="Ok" ErrorText="" DateTime="2020-03-12T15:46:29" WorkTime="63">
+		<LayoutResult LayoutCode="1000813" LayoutFilters="" DataSourceParams=""><Operations count = "30">
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:45:58</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Автоматическое закрытие визита</operationid>
+<operation>Автоматическое закрытие визита</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime>12.03.2020 12:46:16</datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Аннулировать чек</operationid>
+<operation>Аннулировать чек</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:44:37</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Вход в систему</operationid>
+<operation>Вход в систему</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:53:27</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Вход в систему</operationid>
+<operation>Вход в систему</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime></datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Выход из режима расчета</operationid>
+<operation>Выход из режима расчета</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime></datetime>
+<ordername></ordername>
+<operator></operator>
+<shiftnum>16</shiftnum>
+<operationid>Завершение работы</operationid>
+<operation>Завершение работы</operation>
+<operatorid></operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime></datetime>
+<ordername></ordername>
+<operator></operator>
+<shiftnum>16</shiftnum>
+<operationid>Завершение работы</operationid>
+<operation>Завершение работы</operation>
+<operatorid></operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime>12.03.2020 12:45:57</datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Закрытие заказа</operationid>
+<operation>Закрытие заказа</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:44:46</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Закрытие смены кассира</operationid>
+<operation>Закрытие смены кассира</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime>12.03.2020 12:45:57</datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Закрыть чек</operationid>
+<operation>Закрыть чек</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:44:52</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Кассовые отчеты</operationid>
+<operation>Кассовые отчеты</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:45:06</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Кассовые отчеты</operationid>
+<operation>Кассовые отчеты</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:45:25</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Кассовые отчеты</operationid>
+<operation>Кассовые отчеты</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:45:27</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Кассовые отчеты</operationid>
+<operation>Кассовые отчеты</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime>12.03.2020 12:45:46</datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Открывать свой заказ</operationid>
+<operation>Открывать свой заказ</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime>12.03.2020 12:46:16</datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Открывать свой заказ</operationid>
+<operation>Открывать свой заказ</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime>12.03.2020 12:46:21</datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Открывать свой заказ</operationid>
+<operation>Открывать свой заказ</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime>12.03.2020 12:53:28</datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Открывать свой заказ</operationid>
+<operation>Открывать свой заказ</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:39:35</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Отмена регистрации (конец сессии)</operationid>
+<operation>Отмена регистрации (конец сессии)</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:39:42</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Отмена регистрации (конец сессии)</operationid>
+<operation>Отмена регистрации (конец сессии)</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:48:30</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Отмена регистрации (конец сессии)</operationid>
+<operation>Отмена регистрации (конец сессии)</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:55:30</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Отмена регистрации (конец сессии)</operationid>
+<operation>Отмена регистрации (конец сессии)</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:39:35</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Отменить регистрацию работника</operationid>
+<operation>Отменить регистрацию работника</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:44:37</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Первая регистрация после загрузки</operationid>
+<operation>Первая регистрация после загрузки</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:53:27</datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Первая регистрация после загрузки</operationid>
+<operation>Первая регистрация после загрузки</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime></datetime>
+<ordername></ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Печать Z отчета после сбоя</operationid>
+<operation>Печать Z отчета после сбоя</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime></datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Расcчитать чек</operationid>
+<operation>Расcчитать чек</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 12:44:12</datetime>
+<ordername></ordername>
+<operator>Система</operator>
+<shiftnum>16</shiftnum>
+<operationid>Связь с сервером отчетов восстановлена после простоя</operationid>
+<operation>Связь с сервером отчетов восстановлена после простоя</operation>
+<operatorid>Система</operatorid>
+</rbrow>
+<rbrow>
+<orderguid>{BD9DE495-CCAC-4649-967B-5574506DFC18}</orderguid>
+<orderident>256</orderident>
+<datetime>12.03.2020 12:45:46</datetime>
+<ordername>!100121</ordername>
+<operator>Кассир</operator>
+<shiftnum>16</shiftnum>
+<operationid>Создание заказа</operationid>
+<operation>Создание заказа</operation>
+<operatorid>Кассир</operatorid>
+</rbrow>
+<rbrow>
+<orderguid></orderguid>
+<orderident>0</orderident>
+<datetime>12.03.2020 13:09:39</datetime>
+<ordername></ordername>
+<operator>Система</operator>
+<shiftnum>16</shiftnum>
+<operationid>Станция не работала более N минут</operationid>
+<operation>Станция не работала более N минут</operation>
+<operatorid>Система</operatorid>
+</rbrow>
+</Operations>
+		</LayoutResult>
+	</CommandResult>
+</RK7QueryResult>
