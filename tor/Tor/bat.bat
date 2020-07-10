@@ -1,1 +1,0 @@
-START "заголовок" tor.exe /B 

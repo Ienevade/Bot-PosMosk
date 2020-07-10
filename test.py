@@ -1,27 +1,32 @@
 from bs4 import BeautifulSoup
 
-# from main import send_new_alarm
-import datetime
+import addons
 
-time = str(datetime.datetime.now()).split('.')
-lim = 200
-file_op = str(open('a/response.xml', 'r', encoding="utf-8").read())
-file = open('выручка.txt', 'w', encoding="utf-8")
-soup = BeautifulSoup(file_op, 'lxml')
-summary = 0
-count = 0
-sums = soup.find_all('sum_all')
-for one_sum in sums:
-    if count == 0:
-        file.write('*****ОБЩАЯ ВЫРУЧКА*****' + '\n')
-    count = + 1
-    litr = one_sum.get('sum').split("'")
-    a = float(litr[0])
-    summary = summary + a
-count = 0
-if summary >= lim:
-    с = str(f'На {time} сумма выручки превысила {lim} рублей')
-    bet = 'рассылка_по_выручке.txt'
-    print('выручка')
-    # send_new_alarm(с, bet )
-file.write(str(summary))
+
+def delcheck(text, bot, lock):
+    soup = BeautifulSoup(text, 'lxml')
+    delpre = soup.find('deletecheck')
+    logper = soup.find('loginperson')
+    time = delpre.get('time')
+    table = delpre.get('table')
+    name = logper.get('name')
+    check = delpre.get('cheknumber')
+    if len(open('temp_reports/deleted_check.txt', 'r', encoding='UTF-8').read()) == 0:
+        format_text_delprech(time[0:10])
+    strs = str(f'       Удаление чека\n'
+               f'------------------------------\n')
+    stre = str(f'{time} \n'
+               f'официант {name}\n'
+               f'Чек #{check}'
+               f'Стол #{table}\n\n\n')
+    file = open('temp_reports/deleted_check.txt', 'a', encoding='UTF-8')
+    file.write(stre)
+    file.close()
+    addons.send_new_alarm(strs + stre, 'subscrubers/Alarm_subs.txt', bot, lock)
+
+def format_text_delprech(day):
+    file = open('temp_reports/deleted_check.txt', 'w', encoding='UTF-8')
+    text = str(f'           Удалённые чеки\n\n         кассовый день {day}\n\n'
+               f'----------------------------------------\n')
+    file.write(text)
+    file.close()

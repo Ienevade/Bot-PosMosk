@@ -1,0 +1,39 @@
+<ScreenCheck Table="345" Situation="3" Sum="13974.00">
+<SysParams RestCode="702800001" UnitNum="1" Time="10.07.2020 13:04:38" Situation="3">
+<LoginPerson Code="7" ptype="Администраторы" Name="Администратор">Администратор</LoginPerson>
+</SysParams>
+<Waiter Code="7" ptype="Администраторы" Name="Администратор">Администратор</Waiter>
+<CheckLines count = "14">
+<CheckLine Code="50" Price="990.00" Qnt="1.00" Name="Говяжьи щёчки,овощное соте" Store="true" DishUNI="4">Говяжьи щёчки,овощное соте
+</CheckLine>
+<CheckLine Code="55" Price="890.00" Qnt="1.00" Name="Жареные креветки,дзадзики,зелень" Store="true" DishUNI="8">Жареные креветки,дзадзики,зелень
+</CheckLine>
+<CheckLine Code="890" Price="1690.00" Qnt="2.00" Name="Осьминог на гриле" Store="true" DishUNI="11">Осьминог на гриле
+</CheckLine>
+<CheckLine Code="890" Price="1690.00" Qnt="0.00" Name="Осьминог на гриле" Store="true" DishUNI="18">Осьминог на гриле
+</CheckLine>
+<CheckLine Code="58" Price="1090.00" Qnt="1.00" Name="Тунец ,тушёная чечевица,пюре тыквы" Store="true" DishUNI="33">Тунец ,тушёная чечевица,пюре тыквы
+</CheckLine>
+<CheckLine Code="50" Price="990.00" Qnt="3.00" Name="Говяжьи щёчки,овощное соте" Store="true" DishUNI="38">Говяжьи щёчки,овощное соте
+</CheckLine>
+<CheckLine Code="290" Price="790.00" Qnt="0.00" Name="Цыпленок, картофель,горч.соус" Store="true" DishUNI="42">Цыпленок, картофель,горч.соус
+</CheckLine>
+<CheckLine Code="888" Price="990.00" Qnt="1.00" Name="Фишбургер" Store="true" DishUNI="46">Фишбургер
+</CheckLine>
+<CheckLine Code="58" Price="1090.00" Qnt="1.00" Name="Тунец ,тушёная чечевица,пюре тыквы" Store="true" DishUNI="50">Тунец ,тушёная чечевица,пюре тыквы
+</CheckLine>
+<CheckLine Code="888" Price="990.00" Qnt="1.00" Name="Фишбургер" Store="true" DishUNI="55">Фишбургер
+</CheckLine>
+<CheckLine Code="55" Price="890.00" Qnt="0.00" Name="Жареные креветки,дзадзики,зелень" Store="true" DishUNI="22">Жареные креветки,дзадзики,зелень
+</CheckLine>
+<CheckLine Code="54" Price="980.00" Qnt="1.00" Name="Лосось ,запечённая капуста,грибы" Store="true" DishUNI="26">Лосось ,запечённая капуста,грибы
+</CheckLine>
+<CheckLine Code="50" Price="990.00" Qnt="2.00" Name="Говяжьи щёчки,овощное соте" DishUNI="104">Говяжьи щёчки,овощное соте
+</CheckLine>
+<CheckLine Code="58" Price="1090.00" Qnt="1.00" Name="Тунец ,тушёная чечевица,пюре тыквы" New="true" DishUNI="108">Тунец ,тушёная чечевица,пюре тыквы
+</CheckLine>
+</CheckLines>
+<Discounts count = "1">
+<Discount Sum="-2466.00" BaseSum="-2466.00" Name="Скидка discount fm 15%">Скидка discount fm 15%</Discount>
+</Discounts>
+</ScreenCheck>

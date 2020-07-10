@@ -1,9 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca1c21b9-05ba-4996-a4b6-1aa80a1bf561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/subscrubers/Alarm_subs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp_reports/buffer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp_reports/current_money.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp_reports/deleted_check.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp_reports/deleted_prech.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp_reports/eaten_eat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XMLpars.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMLpars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/as.bat" beforeDir="false" afterPath="$PROJECT_DIR$/a/as.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/as.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/as1.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/response.xml" beforeDir="false" afterPath="$PROJECT_DIR$/a/response.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/response1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/test2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/test3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/xmlquery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/a/xmlquery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/Новый текстовый документ (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/Новый текстовый документ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a/без имени.pas" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy_Tor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/response.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/response1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_disc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/settings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.bat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_bot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/addons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Data/Tor/geoip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Data/Tor/geoip6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/bat.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/libcrypto-1_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/libevent-2-1-6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/libevent_core-2-1-6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/libevent_extra-2-1-6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/libgcc_s_sjlj-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/libssl-1_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/libssp-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/libwinpthread-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/tor-gencert.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/tor.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/zlib1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tor/Tor/Новый текстовый документ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Операции.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Первая_операция.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Скидки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp_reports/discount.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/выручка.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/посл_скидка.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/рассылка_по_выручке.txt" beforeDir="false" afterPath="$PROJECT_DIR$/subscrubers/end_of_shift_subs.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,57 +112,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\PycharmProjects\Bot PosMosk\Bot-PosMosk\temp_reports" />
+      <recent name="C:\Users\1\PycharmProjects\Bot PosMosk\Bot-PosMosk\subscrubers" />
+      <recent name="C:\Users\1\PycharmProjects\Bot PosMosk\Bot-PosMosk" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP Probook4320s\PycharmProjects\Bot" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="Bot MosPos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="Bot MosPos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <module name="Bot MosPos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="XMLpars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Bot MosPos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,28 +136,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XMLpars.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Bot MosPos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="proxy_Tor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Bot MosPos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,29 +179,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\HP Probook4320s\PycharmProjects\Bot\proxy_Tor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Bot MosPos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test 2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,72 +210,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Python.FlaskServer">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Bot MosPos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="Bot MosPos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="Bot MosPos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="Bot MosPos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.XMLpars" />
-        <item itemvalue="Python.test 2" />
-        <item itemvalue="Python.proxy_Tor" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -340,70 +289,95 @@
       <workItem from="1592561635484" duration="641000" />
       <workItem from="1592836206091" duration="146000" />
       <workItem from="1592857228554" duration="855000" />
+      <workItem from="1593249787082" duration="918000" />
+      <workItem from="1593271512821" duration="600000" />
+      <workItem from="1593424190685" duration="22172000" />
+      <workItem from="1593519579988" duration="3657000" />
+      <workItem from="1593533310748" duration="8648000" />
+      <workItem from="1593600467606" duration="18864000" />
+      <workItem from="1593706824681" duration="13686000" />
+      <workItem from="1593728561501" duration="635000" />
+      <workItem from="1593761799421" duration="1451000" />
+      <workItem from="1593773320754" duration="21599000" />
+      <workItem from="1593854596970" duration="10927000" />
+      <workItem from="1594066685281" duration="9907000" />
+      <workItem from="1594132522600" duration="11436000" />
+      <workItem from="1594202433943" duration="1876000" />
+      <workItem from="1594218899321" duration="17242000" />
+      <workItem from="1594303429266" duration="1779000" />
+      <workItem from="1594312194578" duration="24709000" />
+      <workItem from="1594368242865" duration="9551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Inspections" timestamp="1584716479519">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1584716479519" />
     <state x="552" y="177" key="#Notifications" timestamp="1585910925552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1585910925552" />
-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583845298850">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583845298850" />
-    <state x="524" y="212" key="FileChooserDialogImpl" timestamp="1585643302078">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="524" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585643302078" />
-    <state width="1340" height="206" key="GridCell.Tab.0.bottom" timestamp="1592255943507">
+    <state x="545" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594136233355">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592255943507" />
+    <state x="545" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1594136233355" />
+    <state width="1557" height="174" key="GridCell.Tab.0.bottom" timestamp="1594379030018">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="174" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594379030018" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586860475281" />
-    <state width="1340" height="206" key="GridCell.Tab.0.center" timestamp="1592255943506">
+    <state width="1557" height="174" key="GridCell.Tab.0.center" timestamp="1594379030018">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592255943506" />
+    <state width="1557" height="174" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594379030018" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586860475281" />
-    <state width="1340" height="206" key="GridCell.Tab.0.left" timestamp="1592255943506">
+    <state width="1557" height="174" key="GridCell.Tab.0.left" timestamp="1594379030018">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592255943506" />
+    <state width="1557" height="174" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594379030018" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586860475281" />
-    <state width="1340" height="206" key="GridCell.Tab.0.right" timestamp="1592255943506">
+    <state width="1557" height="174" key="GridCell.Tab.0.right" timestamp="1594379030018">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592255943506" />
+    <state width="1557" height="174" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594379030018" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586860475281" />
-    <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1583853948293">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583853948293" />
-    <state width="1876" height="342" key="GridCell.Tab.1.center" timestamp="1583853948292">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583853948292" />
-    <state width="1876" height="342" key="GridCell.Tab.1.left" timestamp="1583853948292">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583853948292" />
-    <state width="1876" height="342" key="GridCell.Tab.1.right" timestamp="1583853948292">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583853948292" />
-    <state x="518" y="117" width="916" height="708" key="SettingsEditor" timestamp="1587024034946">
+    <state width="1557" height="329" key="GridCell.Tab.1.bottom" timestamp="1594376447147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="518" y="117" width="916" height="708" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1587024034946" />
-    <state x="622" y="141" width="974" height="738" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585567863900" />
+    <state width="1557" height="329" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594376447147" />
+    <state width="1557" height="329" key="GridCell.Tab.1.center" timestamp="1594376447147">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="329" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1594376447147" />
+    <state width="1557" height="329" key="GridCell.Tab.1.left" timestamp="1594376447146">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="329" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1594376447146" />
+    <state width="1557" height="329" key="GridCell.Tab.1.right" timestamp="1594376447147">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="329" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1594376447147" />
+    <state x="172" y="74" width="916" height="708" key="SettingsEditor" timestamp="1594332478026">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="172" y="74" width="916" height="708" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1594332478026" />
+    <state width="1322" height="438" key="XDebugger.FullValuePopup" timestamp="1594376118319">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1322" height="438" key="XDebugger.FullValuePopup/0.0.1600.860@0.0.1600.860" timestamp="1594376118319" />
     <state x="546" y="283" key="com.intellij.ide.util.TipDialog" timestamp="1587406568084">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -414,14 +388,58 @@
     </state>
     <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1592242052159" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XMLpars.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XMLpars.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XMLpars.py</url>
+          <line>303</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XMLpars.py</url>
+          <line>304</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/XMLpars.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="datases" />
+        <watch expression="name" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Bot_MosPos$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1594377312757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot_MosPos$server.coverage" NAME="server Coverage Results" MODIFIED="1594374666862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot_MosPos$main.coverage" NAME="main Coverage Results" MODIFIED="1594379030003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot$test_2.coverage" NAME="test 2 Coverage Results" MODIFIED="1585040648305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot_MosPos$test.coverage" NAME="test Coverage Results" MODIFIED="1594329295693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot$XMLpars__1_.coverage" NAME="XMLpars (1) Coverage Results" MODIFIED="1584361865092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot$test.coverage" NAME="test Coverage Results" MODIFIED="1585922610784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot_MosPos$addons.coverage" NAME="addons Coverage Results" MODIFIED="1593725203162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bot$proxy_hide_my_name.coverage" NAME="proxy_hide_my_name Coverage Results" MODIFIED="1584434352065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bot$main_viber.coverage" NAME="main_viber Coverage Results" MODIFIED="1583228956060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bot$test_2.coverage" NAME="test 2 Coverage Results" MODIFIED="1585040648305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bot$XMLpars__1_.coverage" NAME="XMLpars (1) Coverage Results" MODIFIED="1584361865092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bot$proxy.coverage" NAME="proxy Coverage Results" MODIFIED="1584436406933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bot$main.coverage" NAME="main Coverage Results" MODIFIED="1592255906385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot_MosPos$addons__1_.coverage" NAME="addons (1) Coverage Results" MODIFIED="1593726770333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Bot$XMLpars.coverage" NAME="XMLpars Coverage Results" MODIFIED="1585059996416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Bot$test.coverage" NAME="test Coverage Results" MODIFIED="1585922610784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bot_MosPos$XMLpars.coverage" NAME="XMLpars Coverage Results" MODIFIED="1594369696116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
