@@ -5,6 +5,7 @@ from telebot import types
 import threading
 import addons
 import server
+import report_works
 
 config = configparser.ConfigParser()  # создаём объекта парсера
 config.read("settings.ini")  # читаем конфиг
@@ -40,6 +41,14 @@ def send_text(message):
     if message.text.lower() == 'привет':
         bot.send_message(message.chat.id, 'Дороу')
 
+    elif message.text.lower() == 'тест1':
+        bot.send_message(message.chat.id, 'А   А   А')
+
+    elif message.text.lower() == 'тест2':
+        bot.send_message(message.chat.id, '<pre>А   А   А</pre>', parse_mode='HTML')
+
+
+
     elif message.text.lower() == 'создатель':
         bot.send_message(message.chat.id, 'Gupye, vk.com/gupye, +79788781055')
 
@@ -70,17 +79,22 @@ def send_text(message):
         menu_markup = 'markup_report'
 
     elif message.text.lower() == 'отчёт->расход блюд':  # Вывод отчёта по выручке
-        send_rep('temp_reports/eaten_eat.txt', message)
+        report_works.parse_eat_report()
+        addons.image_send(bot, message.chat.id, filed='temp_reports/eaten_eat.txt')
 
     elif message.text.lower() == 'отчёт->удаления':  # Вывод отчёта по выручке
-        send_rep('temp_reports/deleted_prech.txt', message)
-        send_rep('temp_reports/deleted_check.txt', message)
+        report_works.parse_del_report()
+        addons.image_send(bot, message.chat.id, filed='temp_reports/deleted_check.txt')
+        addons.image_send(bot, message.chat.id, filed='temp_reports/deleted_prech.txt')
+        addons.image_send(bot, message.chat.id, filed='temp_reports/deleted_disc.txt')
 
     elif message.text.lower() == 'отчёт->скидки' or message.text.lower() == 'отчет->скидки':
-        send_rep('temp_reports/discount.txt', message)
+        report_works.parse_disc_report()
+        addons.image_send(bot, message.chat.id, filed='temp_reports/discount.txt')
 
-    elif message.text.lower() == 'отчёт->текущий баланс' or message.text.lower() == 'отчет->Текущий баланс':
-        send_rep('temp_reports/current_money.txt', message)
+    elif message.text.lower() == 'отчёт->текущий баланс' :
+        report_works.parse_balance_report()
+        addons.image_send(bot, message.chat.id, filed='temp_reports/current_money.txt')
 
     elif message.text.lower() == 'отписаться-> автоотчёт общей смены':
         del_subscription('subscrubers/end_of_shift_subs.txt', message)

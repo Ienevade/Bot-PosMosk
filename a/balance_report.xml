@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RK7QueryResult ServerVersion="7.6.2.205" XmlVersion="244" NetName="MIDSERV" Status="Ok" Processed="1">
+	<CommandResult CMD="GetDocByLayout" Status="Ok" ErrorText="" DateTime="2020-08-20T20:48:16" WorkTime="93">
+		<LayoutResult LayoutCode="10959" LayoutFilters="" DataSourceParams=""><BandRepTitle>
+<rhrow>
+<rhcol>Кассовый балансовый отчет</rhcol>
+<rhcol>кассовый день 10.07.2020</rhcol>
+<rhcol>Смена 205</rhcol>
+<rhcol>20.08.2020 20:48:16</rhcol>
+</rhrow>
+</BandRepTitle>
+<SystemBalance count = "2">
+<rhrow>
+<rhcol>----------------------------------------</rhcol>
+<rhcol>чеков</rhcol>
+<rhcol>гостей</rhcol>
+<rhcol>сумма</rhcol>
+<rhcol>----------------------------------------</rhcol>
+</rhrow>
+<rbrow>
+<SystemBalance count = "1">
+<rbrow>
+<rbcol>Доставка Яндекс Еда</rbcol>
+<rbcol>1</rbcol>
+<rbcol>8</rbcol>
+<rbcol>2280.00</rbcol>
+</rbrow>
+</SystemBalance>
+</rbrow>
+<rbrow>
+<SystemBalance count = "1">
+<rbrow>
+<rbcol>Наличность</rbcol>
+<rbcol>6</rbcol>
+<rbcol>37</rbcol>
+<rbcol>30913.25</rbcol>
+</rbrow>
+</SystemBalance>
+</rbrow>
+<rfrow>
+<rfcol>----------------------------------------</rfcol>
+<rfcol>Всего</rfcol>
+<rfcol>7</rfcol>
+<rfcol>45</rfcol>
+<rfcol>33193.25</rfcol>
+<rfcol>----------------------------------------------</rfcol>
+</rfrow>
+</SystemBalance>
+<rhrow>
+<rhcol></rhcol>
+<rhcol>Скидки / Наценки</rhcol>
+<rhcol>---------------------------------------------------</rhcol>
+</rhrow>
+<Discounts count = "1">
+<rhrow>
+<rhcol>Скидка</rhcol>
+</rhrow>
+<rbrow>
+<Discounts count = "1">
+<rbrow>
+<rbcol>Вручную</rbcol>
+<rbcol>1</rbcol>
+<rbcol>7</rbcol>
+<rbcol>-1431.75</rbcol>
+</rbrow>
+</Discounts>
+</rbrow>
+<rfrow>
+<rfcol>---------------------------------------------------</rfcol>
+</rfrow>
+</Discounts>
+<Virtual[1] count = "1">
+<rhrow>
+<rhcol>Удаления</rhcol>
+<rhcol>Заказов</rhcol>
+<rhcol>Сумма</rhcol>
+<rhcol>--------------------------------------------</rhcol>
+</rhrow>
+</Virtual[1]>
+<Voids count = "3">
+<rhrow>
+<rhcol>БЛЮДА:</rhcol>
+</rhrow>
+<rbrow>
+<rbcol>Отказ без сп.</rbcol>
+<rbcol>2</rbcol>
+<rbcol>24305.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>Отказ со сп.</rbcol>
+<rbcol>6</rbcol>
+<rbcol>20370.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>Ошибка оф-та без сп.</rbcol>
+<rbcol>1</rbcol>
+<rbcol>790.00</rbcol>
+</rbrow>
+</Voids>
+<DeletedReceipts count = "2">
+<rfrow>
+<rfcol>ЧЕКИ:</rfcol>
+<rfcol>2</rfcol>
+<rfcol>20833.25</rfcol>
+</rfrow>
+</DeletedReceipts>
+<PrintedDocs count = "4">
+<rfrow>
+<rfcol>Удалено пречеков:</rfcol>
+<rfcol>4</rfcol>
+<rfcol>11040.00</rfcol>
+</rfrow>
+</PrintedDocs>
+<BandPageFooter>
+<rfrow>
+<rfcol>-------------------------------------------</rfcol>
+<rfcol>7</rfcol>
+</rfrow>
+</BandPageFooter>
+		</LayoutResult>
+	</CommandResult>
+</RK7QueryResult>

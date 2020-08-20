@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RK7QueryResult ServerVersion="7.6.2.205" XmlVersion="244" NetName="MIDSERV" Status="Ok" Processed="1">
+	<CommandResult CMD="GetDocByLayout" Status="Ok" ErrorText="" DateTime="2020-08-20T20:48:28" WorkTime="32">
+		<LayoutResult LayoutCode="10748" LayoutFilters="" DataSourceParams=""><BandRepTitle>
+<rhrow>
+<rhcol>Общий расход блюд</rhcol>
+<rhcol>кассовый день 10.07.2020</rhcol>
+<rhcol>Смена 205</rhcol>
+<rhcol>20.08.2020 20:48:28</rhcol>
+</rhrow>
+</BandRepTitle>
+<DishDebit count = "27">
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+<rbrow>
+</rbrow>
+</DishDebit>
+<DishDebit count = "23">
+<rhrow>
+<rhcol>---------------------------------------------</rhcol>
+<rhcol>код</rhcol>
+<rhcol>блюдо</rhcol>
+<rhcol>кол-во</rhcol>
+<rhcol>сумма</rhcol>
+<rhcol>------------------------------------------------</rhcol>
+</rhrow>
+<rbrow>
+<rbcol>50</rbcol>
+<rbcol>Говяжьи щёчки,овощное соте</rbcol>
+<rbcol>8.00</rbcol>
+<rbcol>7920.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>54</rbcol>
+<rbcol>Лосось ,запечённая капуста,грибы</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>980.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>55</rbcol>
+<rbcol>Жареные креветки,дзадзики,зелень</rbcol>
+<rbcol>3.00</rbcol>
+<rbcol>2670.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>58</rbcol>
+<rbcol>Тунец ,тушёная чечевица,пюре тыквы</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>1090.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>65</rbcol>
+<rbcol>Крем-брюле, маракуя</rbcol>
+<rbcol>8.00</rbcol>
+<rbcol>3680.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>290</rbcol>
+<rbcol>Цыпленок, картофель,горч.соус</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>790.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>570</rbcol>
+<rbcol>Гуакамоле</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>200.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>594</rbcol>
+<rbcol>Бабагануш</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>490.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>700</rbcol>
+<rbcol>Клубника 100гр</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>350.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>701</rbcol>
+<rbcol>Голубика 100гр</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>450.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>763</rbcol>
+<rbcol>Горчица 40 гр</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>130.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>779</rbcol>
+<rbcol>Грибной соус 100гр</rbcol>
+<rbcol>2.00</rbcol>
+<rbcol>700.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>869</rbcol>
+<rbcol>Кофейное парфе с сезонными фруктами</rbcol>
+<rbcol>4.00</rbcol>
+<rbcol>1840.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>870</rbcol>
+<rbcol>Банановое парфе</rbcol>
+<rbcol>2.00</rbcol>
+<rbcol>1040.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>875</rbcol>
+<rbcol>Пепероната 120гр</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>360.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>876</rbcol>
+<rbcol>Хумус 120гр</rbcol>
+<rbcol>6.00</rbcol>
+<rbcol>1920.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>880</rbcol>
+<rbcol>Манго сорбет</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>250.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>883</rbcol>
+<rbcol>Вишневый сорбет</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>250.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>885</rbcol>
+<rbcol>Ванильное  мороженное</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>250.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>887</rbcol>
+<rbcol>Говяжья вырезка 250г переч. соус</rbcol>
+<rbcol>1.00</rbcol>
+<rbcol>2225.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>888</rbcol>
+<rbcol>Фишбургер</rbcol>
+<rbcol>2.00</rbcol>
+<rbcol>1980.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>890</rbcol>
+<rbcol>Осьминог на гриле</rbcol>
+<rbcol>2.00</rbcol>
+<rbcol>3380.00</rbcol>
+</rbrow>
+<rbrow>
+<rbcol>903</rbcol>
+<rbcol>Кар-ый абрикос с йогуртовым кремом</rbcol>
+<rbcol>4.00</rbcol>
+<rbcol>1680.00</rbcol>
+</rbrow>
+<rfrow>
+<rfcol>----------------------------------------</rfcol>
+<rfcol>Всего:</rfcol>
+<rfcol>34625.00</rfcol>
+</rfrow>
+</DishDebit>
+<BandPageFooter>
+<rbrow>
+<rbcol>7</rbcol>
+</rbrow>
+</BandPageFooter>
+		</LayoutResult>
+	</CommandResult>
+</RK7QueryResult>

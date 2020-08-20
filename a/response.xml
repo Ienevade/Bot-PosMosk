@@ -1,50 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RK7QueryResult ServerVersion="7.6.2.205" XmlVersion="244" NetName="MIDSERV" Status="Ok" Processed="1">
-	<CommandResult CMD="GetDocByLayout" Status="Ok" ErrorText="" DateTime="2020-07-03T20:06:18" WorkTime="31">
-		<LayoutResult LayoutCode="10760" LayoutFilters="" DataSourceParams=""><BandRepTitle>
+	<CommandResult CMD="GetDocByLayout" Status="Ok" ErrorText="" DateTime="2020-08-04T18:36:23" WorkTime="78">
+		<LayoutResult LayoutCode="10959" LayoutFilters="" DataSourceParams=""><BandRepTitle>
 <rhrow>
-<rhcol>Общая выручка</rhcol>
-<rhcol>кассовый день: 03.07.2020</rhcol>
-<rhcol>Смена 194</rhcol>
-<rhcol>03.07.2020 20:06:18</rhcol>
+<rhcol>Кассовый балансовый отчет</rhcol>
+<rhcol>кассовый день 10.07.2020</rhcol>
+<rhcol>Смена 205</rhcol>
+<rhcol>04.08.2020 18:36:23</rhcol>
 </rhrow>
 </BandRepTitle>
-<Balance count = "1">
+<SystemBalance count = "1">
 <rhrow>
 <rhcol>----------------------------------------</rhcol>
-<rhcol>валюта</rhcol>
+<rhcol>чеков</rhcol>
+<rhcol>гостей</rhcol>
 <rhcol>сумма</rhcol>
-<rhcol>в базов</rhcol>
-<rhcol>------------------------------------------------</rhcol>
+<rhcol>----------------------------------------</rhcol>
 </rhrow>
 <rbrow>
-<Balance count = "1">
+<SystemBalance count = "1">
 <rbrow>
-<rbcol>Рубли</rbcol>
-<rbcol>17255.00</rbcol>
-<rbcol>17255.00</rbcol>
+<rbcol>Наличность</rbcol>
+<rbcol>3</rbcol>
+<rbcol>85</rbcol>
+<rbcol>32346.50</rbcol>
+</rbrow>
+</SystemBalance>
 </rbrow>
 <rfrow>
-<rfcol>Итого: Наличность</rfcol>
-<rfcol>17255.00</rfcol>
-</rfrow>
-</Balance>
-</rbrow>
-<rfrow>
+<rfcol>----------------------------------------</rfcol>
+<rfcol>Всего</rfcol>
+<rfcol>3</rfcol>
+<rfcol>85</rfcol>
+<rfcol>32346.50</rfcol>
 <rfcol>----------------------------------------------</rfcol>
-<rfcol>Всего:</rfcol>
-<rfcol>Чеков:</rfcol>
-<rfcol>Гостей:</rfcol>
-<rfcol>17255.00</rfcol>
-<rfcol>2</rfcol>
-<rfcol>11</rfcol>
 </rfrow>
-</Balance>
-<BandPageFooter>
+</SystemBalance>
+<rhrow>
+<rhcol></rhcol>
+<rhcol>Скидки / Наценки</rhcol>
+<rhcol>---------------------------------------------------</rhcol>
+</rhrow>
+<Discounts count = "1">
+<rhrow>
+<rhcol>Скидка</rhcol>
+</rhrow>
 <rbrow>
-<rbcol>----------------------------------------------</rbcol>
+<Discounts count = "1">
+<rbrow>
+<rbcol>Вручную</rbcol>
+<rbcol>2</rbcol>
+<rbcol>78</rbcol>
+<rbcol>-4903.50</rbcol>
+</rbrow>
+</Discounts>
 </rbrow>
 <rfrow>
+<rfcol>---------------------------------------------------</rfcol>
+</rfrow>
+</Discounts>
+<Virtual[1] count = "1">
+<rhrow>
+<rhcol>Удаления</rhcol>
+<rhcol>Заказов</rhcol>
+<rhcol>Сумма</rhcol>
+<rhcol>--------------------------------------------</rhcol>
+</rhrow>
+</Virtual[1]>
+<Voids count = "1">
+<rhrow>
+<rhcol>БЛЮДА:</rhcol>
+</rhrow>
+<rbrow>
+<rbcol>Отказ со сп.</rbcol>
+<rbcol>1</rbcol>
+<rbcol>990.00</rbcol>
+</rbrow>
+</Voids>
+<BandPageFooter>
+<rfrow>
+<rfcol>-------------------------------------------</rfcol>
 <rfcol>7</rfcol>
 </rfrow>
 </BandPageFooter>

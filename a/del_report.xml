@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RK7QueryResult ServerVersion="7.6.2.205" XmlVersion="244" NetName="MIDSERV" Status="Ok" Processed="1">
+	<CommandResult CMD="GetDocByLayout" Status="Ok" ErrorText="" DateTime="2020-08-20T20:48:33" WorkTime="16">
+		<LayoutResult LayoutCode="50" LayoutFilters="" DataSourceParams=""><BandRepTitle>
+<rhrow>
+<rhcol>Удаленные чеки</rhcol>
+<rhcol>кассовый день 10.07.2020</rhcol>
+<rhcol>Смена 205</rhcol>
+<rhcol>20.08.2020 20:48:33</rhcol>
+</rhrow>
+</BandRepTitle>
+<DeletedReceipts count = "2">
+<rhrow>
+<rhcol>----------------------------------------</rhcol>
+</rhrow>
+<rbrow>
+<rbcol>Чек #111432</rbcol>
+<rbcol>На сумму:</rbcol>
+<rbcol>19673.25</rbcol>
+<rbcol>причина:</rbcol>
+<rbcol>удалил:</rbcol>
+<rbcol>Отказ без сп.</rbcol>
+<rbcol>Администратор</rbcol>
+<rbcol></rbcol>
+</rbrow>
+<rbrow>
+<rbcol>Чек #111437</rbcol>
+<rbcol>На сумму:</rbcol>
+<rbcol>1160.00</rbcol>
+<rbcol>причина:</rbcol>
+<rbcol>удалил:</rbcol>
+<rbcol>Отказ без сп.</rbcol>
+<rbcol>Администратор</rbcol>
+<rbcol></rbcol>
+</rbrow>
+</DeletedReceipts>
+<BandPageFooter>
+<rbrow>
+<rbcol>----------------------------------------</rbcol>
+</rbrow>
+<rfrow>
+<rfcol>7</rfcol>
+</rfrow>
+</BandPageFooter>
+		</LayoutResult>
+	</CommandResult>
+</RK7QueryResult>

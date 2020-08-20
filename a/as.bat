@@ -1,1 +1,1 @@
-xmltest.exe 127.0.0.1:1995 xmlquery.xml response.xml /Administrator:7
+xmltest.exe 127.0.0.1:1995 balance_req.xml response.xml /Administrator:7

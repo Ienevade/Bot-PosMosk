@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RK7QueryResult ServerVersion="7.6.2.205" XmlVersion="244" NetName="MIDSERV" Status="Ok" Processed="1">
+	<CommandResult CMD="GetDocByLayout" Status="Ok" ErrorText="" DateTime="2020-08-20T20:48:23" WorkTime="31">
+		<LayoutResult LayoutCode="53" LayoutFilters="" DataSourceParams=""><BandRepTitle>
+<rhrow>
+<rhcol>Персональные скидки / наценки</rhcol>
+<rhcol>кассовый день 10.07.2020</rhcol>
+<rhcol>Смена 205</rhcol>
+<rhcol>20.08.2020 20:48:23</rhcol>
+</rhrow>
+</BandRepTitle>
+<Discounts count = "1">
+<rhrow>
+<rhcol>----------------------------------------</rhcol>
+<rhcol>Название</rhcol>
+<rhcol>Кол-во</rhcol>
+<rhcol>Сумма</rhcol>
+<rhcol>----------------------------------------</rhcol>
+</rhrow>
+<rbrow>
+<Discounts count = "1">
+<rhrow>
+<rhcol>Администратор</rhcol>
+</rhrow>
+<rbrow>
+<Discounts count = "1">
+<rbrow>
+<rbcol>Скидка 15% (Duklalis)</rbcol>
+<rbcol>1</rbcol>
+<rbcol>-1431.75</rbcol>
+</rbrow>
+</Discounts>
+</rbrow>
+<rfrow>
+<rfcol>----------------------------------------</rfcol>
+<rfcol>Итого:</rfcol>
+<rfcol>-1431.75</rfcol>
+<rfcol></rfcol>
+</rfrow>
+</Discounts>
+</rbrow>
+<rfrow>
+<rfcol>----------------------------------------</rfcol>
+<rfcol>Итого:</rfcol>
+<rfcol>-1431.75</rfcol>
+<rfcol>----------------------------------------</rfcol>
+</rfrow>
+</Discounts>
+<BandPageFooter>
+<rfrow>
+<rfcol>7</rfcol>
+</rfrow>
+</BandPageFooter>
+		</LayoutResult>
+	</CommandResult>
+</RK7QueryResult>

@@ -1,0 +1,10 @@
+pip install pyTelegramBotApi
+pip install bs4
+pip install lxml
+pip install configparser
+pip install datetime
+pip install subprocess
+pip install time
+pip install telebot
+pip install threading
+pip install bs4
