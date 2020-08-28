@@ -72,4 +72,7 @@ def server_pooling(bot, lock):
                     for file in clear:
                         with open(file, 'w', encoding='UTF-8') as e:
                             print('очищено')
+                else:
+                    x = threading.Thread(target=addons.send_new_alarm, args=(
+                        pal.decode(encoding="WINDOWS-1251"), 'subscrubers/Alarm_subs.txt', bot, lock))
                 print(pal.decode(encoding="WINDOWS-1251"))

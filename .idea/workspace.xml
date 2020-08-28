@@ -21,23 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca1c21b9-05ba-4996-a4b6-1aa80a1bf561" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscrubers/Alarm_subs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/subscrubers/Alarm_subs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscrubers/end_of_shift_subs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/subscrubers/end_of_shift_subs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_discount/568.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_eat/100.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_eat/444.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_eat/568.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_eat/7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_reports/current_money.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp_reports/current_money.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_reports/deleted_check.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp_reports/deleted_check.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_reports/deleted_disc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp_reports/deleted_disc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_reports/deleted_prech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp_reports/deleted_prech.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_reports/discount.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp_reports/discount.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_reports/eaten_eat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp_reports/eaten_eat.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_table/100.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_table/444.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_table/568.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_table/7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,6 +281,10 @@
       <workItem from="1597933415911" duration="6814000" />
       <workItem from="1597949908187" duration="547000" />
       <workItem from="1597952732413" duration="77000" />
+      <workItem from="1597959860055" duration="244000" />
+      <workItem from="1598344081725" duration="880000" />
+      <workItem from="1598624127121" duration="540000" />
+      <workItem from="1598624716379" duration="2431000" />
     </task>
     <servers />
   </component>
@@ -324,6 +312,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="545" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1594136233355" />
+    <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598624430900">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1598624430900" />
     <state x="0" y="183" key="#xdebugger.XInspectDialog" timestamp="1596715031273">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
